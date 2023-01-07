@@ -1,14 +1,14 @@
-public class Person {
+public class Person{
 
     // properties of a person:
     private String firstName;
-    private String surName;
+    private String surname;
     private String team;
 
-    // Create a constructor function
-    public Person(String firstName, String surName, String team) {
+    // constructor function
+    public Person(String firstName, String surname, String team) {
         this.firstName = firstName;
-        this.surName = surName;
+        this.surname = surname;
         this.team = team;
     }
     
@@ -21,12 +21,12 @@ public class Person {
         this.firstName = firstName;
     }
 
-    public String getSurName() {
-        return this.surName;
+    public String getSurname() {
+        return this.surname;
     }
 
-    public void setSurName(String surName) {
-        this.surName = surName;
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 
     public String getTeam() {

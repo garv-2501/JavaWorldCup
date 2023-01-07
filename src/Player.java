@@ -1,4 +1,4 @@
-public class Player {
+public class Player extends Person{
     
     // properties of a player:
     private String position;
@@ -14,9 +14,10 @@ public class Player {
     private double offsideAdherence;
 
     // constructor function
-    public Player(String position, double fitness, double passingAccuracy, double shotAccuracy,
+    public Player(String firstName, String surName, String team, String position, double fitness, double passingAccuracy, double shotAccuracy,
                   double shotFrequency, double defensiveness, double aggression, double positioning,
                   double dribbling, double chanceCreation, double offsideAdherence) {
+        super(firstName, surName, team);
         this.position = position;
         this.fitness = fitness;
         this.passingAccuracy = passingAccuracy;

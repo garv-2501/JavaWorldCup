@@ -1,5 +1,5 @@
-public class Manager {
-    
+public class Manager extends Person{
+
     // properties of a manager:
     private String favouredFormation;
     private double respect;
@@ -8,7 +8,8 @@ public class Manager {
     private double belief;
 
     // constructor function
-    public Manager(String favouredFormation, double respect, double ability, double knowledge, double belief) {
+    public Manager(String firstName, String surname, String team, String favouredFormation, double respect, double ability, double knowledge, double belief) {
+        super(firstName, surname, team);
         this.favouredFormation = favouredFormation;
         this.respect = respect;
         this.ability = ability;
