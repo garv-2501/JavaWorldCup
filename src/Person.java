@@ -1,3 +1,4 @@
+// This will act as a superclass for the "Player" and "Manager" classes.
 public class Person{
 
     // properties of a person:
